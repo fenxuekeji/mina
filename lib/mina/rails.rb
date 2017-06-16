@@ -244,6 +244,7 @@ namespace :rails do
 
   desc 'Compile webpacker assets'
   task :webpacker_compile do
+    echo "-----> webpacker_compilewebpacker_compilewebpacker_compilewebpacker_compile"
     comment %{Precompiling webpacker asset files}
     command %{#{fetch(:rails)} webpacker:compile}
   end
