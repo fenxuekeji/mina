@@ -50,7 +50,7 @@ set_default :rails, lambda { %{#{bundle_prefix} rails} }
 # Override this if you have custom asset paths declared in your Rails's
 # `config.assets.paths` setting.
 
-set_default :asset_paths, ['vendor/assets/', 'app/assets/']
+set_default :asset_paths, ['vendor/assets/', 'app/assets/', 'app/javascript/']
 
 # ### compiled_asset_path
 # The path to be copied to the new release.
